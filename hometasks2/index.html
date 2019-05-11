@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Светофор</title>
+    <style>
+  #circle {
+      width: 160px;
+      height: 160px;
+      border-radius: 125px;
+	  border:groove 5px #000000; 
+    }
+  #rectangle {
+      width:170px;
+      height:510px;
+      border:solid 5px #000000;
+    }
+	
+	.red {
+	background: red;
+	box-shadow: 0 0 25px red;
+	}
+	.yellow {
+	background: yellow;
+	box-shadow: 0 0 25px yellow;
+	}
+	.green {
+	background: #00FF00;
+	box-shadow: 0 0 25px green;
+	}
+	
+	</style>
+</head>
+<body>
+<div id="rectangle">
+<div class="red" id="circle"></div>
+<div class="yellow" id="circle"></div>
+<div class="green" id="circle"></div>
+</div>
+
+</body>
+
+</html>

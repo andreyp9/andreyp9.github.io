@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Светофор</title>
+    <style>
+	div {
+	margin: auto;
+	}
+  #circle {
+      width: 160px;
+      height: 160px;
+      border-radius: 125px;
+	  border:groove 5px #000000; 
+    }
+  #rectangle {
+      width:170px;
+      height:510px;
+      border:solid 5px #000000;
+    }
+	
+	.red {
+	background: red;
+	box-shadow: 0 0 25px red;
+	}
+	.yellow {
+	background: yellow;
+	box-shadow: 0 0 25px yellow;
+	}
+	.green {
+	background: #00FF00;
+	box-shadow: 0 0 25px green;
+	}
+
+#bar {
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  border: 5px solid #9400d3;
+  border-radius: 20px 5px;
+  width: 400px;
+  text-align: center;
+  background-color: #00d32a;
+}
+#bar li {
+display: inline;
+}
+#bar a {
+  color: #d3003f;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+}
+#bar a:hover {
+  border-radius: 20px 5px;
+  background-color: #9400d3;
+}
+
+
+	
+	</style>
+</head>
+<body>
+<ul id="bar">
+  <li><a href="red.html">RED</a></li>
+  <li><a href="yellow.html">YELLOW</a></li>
+  <li><a href="green.html">GREEN</a></li>
+ </ul>
+<p>
+
+
+</p>
+<div id="rectangle">
+<div class="red" id="circle"></div>
+<div class="yellow" id="circle"></div>
+<div class="green" id="circle"></div>
+</div>
+
+<p style="font-size: 200%; text-align: center"><a href="2).html">Вторая часть задания</a></p>
+
+</body>
+
+</html>
